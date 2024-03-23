@@ -922,7 +922,7 @@
     cursor: pointer;
 }
 
-/*Inizio codice per media*/
+/*Inizio codice per media____________________________________*/
 @media (max-width: 500px) {
     .header_top{
         justify-content: start;
@@ -956,7 +956,6 @@
     }
     .ht_box5{
         width: 6%;
-        border: 1px solid red;
     }
     .Search1{
         width: 30.6%;
@@ -989,7 +988,6 @@
         width: 100%;
         height: auto;
         transform:scale(150%);
-        object-fit: cover;
         top: 42px;
     }
     .freccie_Top{
@@ -1003,10 +1001,187 @@
         height: 20px;
     }
     .flex_container1{
-        padding: 0 10px;
-        width: ;
+        padding: 0 2.5%;
+        top: 19%;
+        width: 95%;
+        height: 22%;
     }
-    
-    
-    
+    .flex_container2{
+        padding: 0 2.5%;
+        top: 42%;
+        width: 95%;
+        height: 22%;
+    }
+    .White_Box, .Metà_container{
+        width: 32%;
+    }
+    .White_Box_Text, .Cerchi1_Box1, .Metà_Testo{
+        font-size: 9px;
+        padding-top: 10px;
+    }
+    .White_Box_Lower_Text, .Cerchi1_Box1 a, .Metà_Sottotesto, .Metà_Sottotesto2, .Metà_Box4, .Metà_Box5, .Metà_Box6, .Metà_Box7, .Fine_Box1, .Fine_Box2, .Fine_Sottotesto{
+        font-size: 6px;
+        padding-bottom: 10px;
+    }
+    .Cerchi1_container{
+        padding: 0 2.5%;
+        top: 65%;
+        width: 95%;
+        height: 15%;
+    }
+    .Cerchi1{
+        padding: 0 2.5%;
+        height: 95%;
+        width: 95%;
+    }
+    .Cerchi1_Box2{
+        height: 80%;
+    }
+    .Cerchi1_img{
+        height: auto;
+        width: 25%;
+    }
+    .Cerchi2_container{
+        padding: 0 2.5%;
+        top: 81%;
+        width: 95%;
+        height: 15%;
+    }
+    .Metà{
+        padding: 0 2.5%;
+        top: 97%;
+        width: 95%;
+        height: 22%;
+        left: 0;
+    }
+    #Metà_Sottotesto_Sottolineata, .Fine_Sottotesto{
+        padding-top: 0;
+    }
+    .Metà_Sottotesto2, .Blue_container1{
+        padding-top: 10px;
+    }
+    .Fine1{
+        padding: 0 2.5%;
+        top: 120%;
+        width: 95%;
+        height: 22%;
+        left: 0;
+    }
+    .Fine2{
+        padding: 0 2.5%;
+        top: 143%;
+        width: 95%;
+        height: 22%;
+        left: 0;
+    }
+    .Fine_Box1{
+        height: 32%;
+        padding-bottom: 10px;
+    }
+    .Fine_Box2{
+        height: 95%;
+    }
+    .White_Bottom{
+        padding-top: 2.5%;
+        top:166%;
+        width: 100%;
+        height: 9%;
+    }
+    .Accedi_container{
+        height: 55%;
+        padding-top: 0;
+        padding-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .Accedi_Text, .Accedi_Text2{
+        padding-bottom: 0;
+        font-size: 6px;
+    }
+    .Accedi_Button{
+        height: 15px;
+        width: 110px;
+    }
+    .Accedi{
+        font-size: 6px;
+    }
+    #media_ft1{
+        height: 30%;
+    }
+    .Blue_Bottom{
+        width: 100%;
+        height: 2.7%;
+        top: 176%;
+    }
+    .Blue_space{
+        width: 97%;
+        padding: 0 1.5%;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .Bottom_Box1, .Bottom_Box3{
+        width: 22%;
+    }
+    .Bottom_Box2{
+        width: 18%;
+    }
+    .Bottom_Box4{
+        width: 13%;
+    }
+    .Blue_space a{
+        font-size: 6px;
+        margin-top: 5px;
+    }
+    .Blue_space strong, .Torna_su{
+        font-size: 6px;
+    }
+    .Blue_Bottom2{
+        width: 100%;
+        height: 35.8%;
+        top: 178.7%;
+    }
+    .Blue_container1{
+        height: 75%;
+    }
+    .Blue_container2{
+        height: 25%;
+    }
+    .Amazon_Logo{
+        margin-bottom: 0;
+        width: 40px;
+    }
+    .Bottom_Box5{
+        height:15%;
+    }
+    .Bottom_Box5 a{
+        font-size: 5px;
+        padding:0 3px;
+    }
+    .Black_Bottom{
+        width: 100%;
+        height: 11.6%;
+        top: 214.4%; 
+    }
+    .Black_space{
+        width: 97%;
+        padding: 0 1.5%;
+        justify-content: space-between;
+    }
+    .Black_Text{
+        font-size: 5px;
+        margin-top: 8px;
+    }
+    .Black_Subtext{
+        font-size: 5px;
+    }
+    .Bottom_Box8, .Bottom_Box10, .Bottom_Box7{
+        width: 13%;
+    }
+    .Bottom_Box9{
+        width: 10%;
+    }
+    .Bottom_Box11, .Bottom_Box12{
+        padding: 0;
+        font-size: 5px;
+    }
 }
