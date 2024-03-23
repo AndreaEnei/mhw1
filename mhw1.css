@@ -1,0 +1,903 @@
+body{
+    margin: 0px;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Inizio Header______________________________________________________________*/
+
+.header_top{
+    height: 43px;
+    background-color: rgb(19, 25, 33);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_bottom{
+    height: 27px;
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    align-items: center;
+    font-size: 10.5px;
+    color: white;
+    padding-left: 10px;
+}
+
+#header_box_top{
+    height: 100%;
+    width: 98.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#header_box_bottom{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.ht_box1{
+    height: 80%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ht_box2{
+    height: 80%;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ht_box2_1{
+    height: 100%;
+    width: 15px;
+}
+.ht_box2_2{
+    height: 100%;
+    width: 121px;
+    font-size: 9px;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4px;
+}
+.ht_box2_2 strong{
+    color: #fff;
+    font-size: 10px;
+}
+.ht_box3{
+    height: 70%;
+    width: 985px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 9px;
+}
+.Search1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #e6e6e6;
+    height: 100%;
+    width: 85px;
+    color: rgb(118, 118, 118);
+    padding: 0px 2px;
+}
+.Search2{
+    background-color: white;
+    height: 100%;
+    width: 855px;
+    font-size: 10px;
+    color: rgb(118, 118, 118);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.Search3{
+    background-color: #FEBD69;
+    height: 100%;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.ht_box4{
+    height: 70%;
+    width: 85px;
+    font-size: 9px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.ht_box4_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ht_box4_1 strong{
+    font-size: 10px;
+}
+.ht_box5{
+    display: flex;
+    height: 70%;
+    width: 45px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 9px;
+    padding-left: 5px;
+}
+.ht_box5 strong{
+    font-size: 10px;
+}
+.ht_box6{
+    display: flex;
+    height: 60%;
+    width: 85px;
+    flex-direction: row;
+    color: white;
+    font-size: 10px;
+    align-items: end;
+    padding-bottom: 5px;
+}
+.hb_text{
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 9px;
+}
+.hb_text p{
+    font-weight:800;
+}
+.hb_img1{
+    height: 30px;
+    width: auto;
+}
+.hb_img2{
+    height: 5px;
+    width: auto;
+}
+.ht_img3{
+    height: 27px;
+    width: auto;
+}
+.ht_img4{
+    height: 4px;
+    width: auto;
+}
+.ht_img5{
+    height: 30px;
+    width: auto;
+}
+.ht_img6{
+    height: 5px;
+    width: auto;
+}
+.ht_img7{
+    height: 35px;
+    width: auto;
+}
+.hb_text:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ht_box1:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ht_box2:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ht_box5:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ht_box4:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ht_box6:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.Search3:hover{
+    background-color: #FF9900;
+    cursor: pointer;
+}
+.Search1:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    color: rgb(15, 17, 17);
+}
+
+/*Inizio Pagina dopo Header_______________________________________________________________________*/
+.Sfondo1{
+    height: 600px;
+    width: 1115px;
+    z-index: 1;
+    position: relative;
+    padding-left: 200px;
+    padding-right: 200px;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    /*mettiamo una mascherà per andare da opaco a trasparente*/
+}
+
+.freccie_Top{
+    display: flex;
+    left: 200px;
+    height: 250px;
+    width: 1115px;
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.freccie_Top:hover{
+    cursor: pointer;
+}
+.freccie_Top img{
+    height: 50px;
+    width: auto;
+}
+
+.flex_container1{
+    display: flex;
+    padding: 0px 215px;
+    height: 315px;
+    width: 1085px;
+    position: absolute;
+    z-index: 3;
+    top: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_container1:hover img{
+    cursor: pointer;
+}
+.flex_container2{
+    display: flex;
+    padding: 0px 215px;
+    height: 75px;
+    width: 1085px;
+    position: absolute;
+    z-index: 3;
+    top: 770px;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_container2:hover img{
+    cursor: pointer;
+}
+.White_Box{
+    display: flex;
+    height: 315px;
+    width: 260px;
+    background-color: white;
+    z-index: 2;
+    justify-content: left;
+    flex-direction: column;
+}
+.White_Box_Text{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 17px;
+    padding-left: 13px;
+}
+.White_Box_Lower_Text{
+    color: #007185;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-left: 13px;
+}
+.White_Box_Lower_Text:hover{
+    text-decoration: underline;
+    color: #C7511F;
+    cursor: pointer;
+}
+.Top_Box{
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 220px;
+    object-fit: cover;
+}
+/*Inizio Cerchi 1*/
+
+.Cerchi1_container{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top:980px;
+    height: 193px;
+    width: 100%; 
+    justify-content: center; 
+}
+.Cerchi1{
+    padding: 0px 13px;
+    padding-top: 17px;
+    background-color: white;
+    height: 100%;
+    width: 1059px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.Cerchi1 a{
+    padding-left: 5px;
+    color: #007185;
+    font-size: small;
+}
+.Cerchi1 a:hover{
+    text-decoration: underline;
+    color: #C7511F;
+    cursor: pointer;
+}
+.Cerchi1_Box1{
+    height: 13%;
+    z-index: 2;
+}
+.Cerchi1_Box1 a{
+    font-size: 10px;
+}
+.Cerchi1_Box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 2;
+}
+.Cerchi1_img{
+    height: 150px;
+    width: auto;
+}
+.Frecce_Cerchio{
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    top: 1030px;
+    width: 1060px;
+    left: 230px;
+}
+.Frecce_Cerchio:hover{
+    cursor: pointer;
+}
+.Frecce_Cerchio img{
+    height: 20px;
+    width: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+.Frecce_Cerchio:hover img{
+    opacity: 1;
+}
+
+/*Inizio Cerchi 2*/
+
+.Cerchi2_container{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top:1205px;
+    height: 193px;
+    width: 100%; 
+    justify-content: center; 
+}
+.Frecce_Cerchio2{
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    top: 1245px;
+    width: 1060px;
+    left: 230px;
+}
+.Frecce_Cerchio2:hover{
+    cursor: pointer;
+}
+.Frecce_Cerchio2 img{
+    height: 20px;
+    width: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+.Frecce_Cerchio2:hover img{
+    opacity: 1;
+}
+/*Inizio Metà Pagina*/
+
+.Metà{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top:1430px;
+    justify-content: space-between; 
+    height: 315px;
+    width: 1085px;
+    left: 215px;
+}
+.Metà_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: white;
+    height: 100%;
+    width: 260px;
+    align-items: center;
+    color: rgb(15, 17, 17);
+    font-size: 10px;
+}
+.Metà_img1{
+    display: flex;
+    height: 64%;
+    width: 88%;
+    overflow: hidden;
+}
+.Metà_Testo{
+    font-size: 16px;
+    padding-top: 17px;
+    padding-left: 13px;
+    align-self: flex-start;
+    padding-bottom: 10px;
+}
+.Metà_Sottotesto{
+    padding-bottom: 17px;
+    font-size: 10px;
+    color: #007185;
+    padding-left: 13px;
+    padding-top: 25px;
+    align-self: flex-start;
+}
+.Metà_Sottotesto2{
+    padding-bottom: 17px;
+    font-size: 10px;
+    color: #007185;
+    padding-left: 13px;
+    padding-top: 40px;
+    align-self: flex-start;
+}
+.Metà_Box1{
+    width: 87%;
+    display: flex;
+    height: 140px;
+    flex-direction: column;
+}
+.Metà_Box2{
+    width: 87%;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+}
+.Metà_Box3{
+    width: 100%;
+    display: flex;
+    height: 88%;
+}
+.Metà_Box4{
+    width: 100%;
+    display: flex;
+    height: 12%;
+    align-items: end;
+}
+.Telefoni_Intelligenti{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Metà_Box5{
+    width: 31%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.Computer {
+    width: 100%;
+    height: 86%;
+    object-fit: cover;
+}
+.Metà_Box6{
+    width: 31%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.Casa {
+    width: 100%;
+    height: 86%;
+    object-fit: cover;
+}
+.Metà_Box7{
+    height: 90%;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.Camere {
+    width: 100%;
+    height: 86%;
+    object-fit: cover;
+}
+.Metà_Sottotesto:hover{
+    color: #C7511F;
+    cursor: pointer;
+}
+.Metà_Sottotesto2:hover{
+    color: #C7511F;
+    cursor: pointer;
+}
+#Metà_Sottotesto_Sottolineata:hover{
+    text-decoration: underline;
+}
+.Metà_container:hover img{
+    cursor: pointer;
+}
+.Metà_Box4:hover{
+    cursor: pointer;
+}
+.Metà_Box5:hover{
+    cursor: pointer;
+}
+.Metà_Box6:hover{
+    cursor: pointer;
+}
+.Metà_Box7:hover{
+    cursor: pointer;
+}
+
+/*Inizio della Fine pagina Prima Footer*/
+
+.Fine1{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top:1760px;
+    justify-content: space-between; 
+    height: 315px;
+    width: 1085px;
+    left: 215px;
+    color: rgb(15, 17, 17);
+    font-size: 10px;
+}
+
+.Fine2{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top:2090px;
+    justify-content: space-between; 
+    height: 315px;
+    width: 1085px;
+    left: 215px;
+}
+.Fine_Box1{
+    display: flex;
+    height: 108px;
+    width: 87%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Fine_Box2{
+    display: flex;
+    height: 95px;
+    width: 47%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Fine_bassa{
+    align-items: end;
+}
+.Fine_img{
+    height: 95%;
+    width: 100%;
+    object-fit: cover;
+}
+.Fine_img1{
+    height: 225px;
+    width: 230px;
+    display: flex;
+}
+.Fine_img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Fine_Sottotesto{
+    padding-bottom: 17px;
+    font-size: 10px;
+    color: #007185;
+    padding-left: 13px;
+    padding-top: 25px;
+    align-self: flex-start;
+}
+#Fine_Sottotesto_Non_Sottolineato{
+    padding-top: 16px;
+}
+.Fine_Sottotesto:hover{
+    cursor: pointer;
+    color: #C7511F;
+    text-decoration: underline;
+}
+#Fine_Sottotesto_Non_Sottolineato:hover{
+    text-decoration: none;
+}
+.Fine_Box2:hover{
+    cursor: pointer;
+}
+
+
+/*Inizio footer*/
+
+.White_Bottom{
+    background-color: white;
+    height: 140px;
+    width: 1519px;
+    display: flex;
+    position: absolute;
+    top: 2420px;
+    align-items: center;
+    z-index: 1;
+}
+.Accedi_container{
+    border: 1px solid lightgray;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    z-index: 2;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    padding-top: 30px;
+    padding-bottom: -20px;
+}
+.Accedi_Button{
+    width: 175px;
+    height: auto;
+}
+.Accedi_container:hover img{
+    cursor: pointer;
+}
+.Accedi{
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    font-weight: bold;
+    font-size: 9px;
+}
+.Accedi_Text2{
+    font-size: 9px;
+}
+.Accedi_container a{
+    color: #007185;
+}
+.Accedi_container a:hover{
+    color: #C7511F;
+    cursor: pointer;
+}
+.Blue_Bottom{
+    background-color: rgb(55, 71, 90);
+    height: 35px;
+    width: 1519px;
+    display: flex;
+    position: absolute;
+    top: 2560px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.Torna_su{
+    font-size: 10px;
+    color: white;
+}
+.Blue_Bottom:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.Blue_Bottom2{
+    height: 510px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 2595px;
+    background-color: #232F3E;
+}
+.Blue_container1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 12px;
+}
+.Blue_space{
+    height: 100%;
+    display: flex;
+    width: 740px;
+    justify-content: space-between;
+}
+.Bottom_Box1{
+    height: 350px;
+    width: 135px;
+    color: white;
+}
+.Bottom_Box2{
+    height: 350px;
+    width: 150px;
+    color: white;
+}
+.Bottom_Box3{
+    height: 350px;
+    width: 185px;
+    color: white;
+}
+.Bottom_Box4{
+    height: 350px;
+    width: 105px;
+    color: white;
+}
+.Blue_container1 a{
+    display: flex;
+    font-size: 11px;
+    color: #DDD;
+    margin-top: 10px;
+}
+.Blue_container1 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Blue_container2{
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid #3a4553;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+}
+.Amazon_Logo{
+    height: auto;
+    width: 67px;
+    margin-bottom: 12px;
+}
+.Blue_container2:hover img{
+    cursor: pointer;
+}
+.Bottom_Box5{
+    display: flex;
+    flex-direction: row;
+}
+.Blue_container2 a{
+    display: flex;
+    color: #DDD;
+    padding-left: 11px;
+    margin-bottom: 4px;
+}
+.Blue_container2 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.Black_Bottom{
+    height: 175px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 3105px;
+    background-color: #131A22;
+}
+.Black_container1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    color: #DDD;
+    font-size: 9px;
+}
+.Black_space{
+    margin-top: 10px;
+    height: auto;
+    width: 725px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Bottom_Box7{
+    height: auto;
+    width: 100px;
+}
+.Bottom_Box8{
+    height: auto;
+    width: 90px;
+}
+.Bottom_Box9{
+    height: auto;
+    width: 75px;
+}
+.Bottom_Box10{
+    height: auto;
+    width: 95px;
+}
+.Black_Subtext{
+    display: flex;
+    color: #999;
+}
+.Black_Text{
+    display: flex;
+    margin-top: 15px;
+}
+.Black_space a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Black_container2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #DDD;
+    font-size: 9px;
+}
+.Bottom_Box11{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Bottom_Box12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.Black_container2 a{
+    display: flex;
+    padding-left: 11px;
+    padding-bottom: 2px;
+}
+.Black_container2 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
