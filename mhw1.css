@@ -1,8 +1,33 @@
-body{
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  body{
     margin: 0px;
     background-color: lightgrey;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, 'PT Sans', sans-serif;
 }
+  
 /*Inizio Header______________________________________________________________*/
 
 .header_top{
