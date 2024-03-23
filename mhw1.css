@@ -22,6 +22,7 @@
     font-weight: 700;
     font-style: italic;
   }
+
   body{
     margin: 0px;
     background-color: lightgrey;
@@ -36,7 +37,8 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 0.66%;
 }
 
 .header_bottom{
@@ -46,17 +48,9 @@
     align-items: center;
     font-size: 10.5px;
     color: white;
-    padding-left: 10px;
+    padding-left: 0.66%;
 }
 
-#header_box_top{
-    height: 100%;
-    width: 98.5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
 #header_box_bottom{
     height: 100%;
     width: 95%;
@@ -75,24 +69,24 @@
 }
 .ht_box2{
     height: 80%;
-    width: 140px;
+    width: 9.23%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .ht_box2_1{
     height: 100%;
-    width: 15px;
+    width: 10.71%;
 }
 .ht_box2_2{
     height: 100%;
-    width: 121px;
+    width: 86.43%;
     font-size: 9px;
     color: #ccc;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 4px;
+    padding-left: 2.86%;
 }
 .ht_box2_2 strong{
     color: #fff;
@@ -100,7 +94,7 @@
 }
 .ht_box3{
     height: 70%;
-    width: 985px;
+    width: 64.93%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -114,14 +108,14 @@
     border-bottom-left-radius: 3px;
     background-color: #e6e6e6;
     height: 100%;
-    width: 85px;
+    width: 8.6%;
     color: rgb(118, 118, 118);
     padding: 0px 2px;
 }
 .Search2{
     background-color: white;
     height: 100%;
-    width: 855px;
+    width: 86.8%;
     font-size: 10px;
     color: rgb(118, 118, 118);
     display: flex;
@@ -131,7 +125,7 @@
 .Search3{
     background-color: #FEBD69;
     height: 100%;
-    width: 35px;
+    width: 4.6%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,7 +134,7 @@
 }
 .ht_box4{
     height: 70%;
-    width: 85px;
+    width: 5.6%;
     font-size: 9px;
     color: white;
     display: flex;
@@ -159,7 +153,7 @@
 .ht_box5{
     display: flex;
     height: 70%;
-    width: 45px;
+    width: 2.97%;
     flex-direction: column;
     justify-content: center;
     color: white;
@@ -172,7 +166,7 @@
 .ht_box6{
     display: flex;
     height: 60%;
-    width: 85px;
+    width: 5.6%;
     flex-direction: row;
     color: white;
     font-size: 10px;
@@ -181,6 +175,7 @@
 }
 .hb_text{
     display: flex;
+    flex-direction: row;
     height: 100%;
     width: auto;
     align-items: center;
@@ -255,11 +250,12 @@
 /*Inizio Pagina dopo Header_______________________________________________________________________*/
 .Sfondo1{
     height: 600px;
-    width: 1115px;
+    /*width: 1115px;*/
+    width: 73.5%;
     z-index: 1;
     position: relative;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 13.25%;
+    padding-right: 13.25%;
     object-fit: cover;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
     /*mettiamo una mascherà per andare da opaco a trasparente*/
@@ -269,7 +265,7 @@
     display: flex;
     left: 200px;
     height: 250px;
-    width: 1115px;
+    width: 73.5%;
     position: absolute;
     z-index: 2;
     top: 70px;
@@ -287,8 +283,8 @@
 .flex_container1{
     display: flex;
     padding: 0px 215px;
-    height: 315px;
-    width: 1085px;
+    height: 35.5%;
+    width: 71.52%;
     position: absolute;
     z-index: 3;
     top: 320px;
@@ -301,11 +297,11 @@
 .flex_container2{
     display: flex;
     padding: 0px 215px;
-    height: 75px;
-    width: 1085px;
+    height: 35.5%;
+    width: 71.52%;
     position: absolute;
     z-index: 3;
-    top: 770px;
+    top: 73.5%;
     justify-content: space-between;
     align-items: center;
 }
@@ -314,8 +310,8 @@
 }
 .White_Box{
     display: flex;
-    height: 315px;
-    width: 260px;
+    height: 100%;
+    width: 23.96%;
     background-color: white;
     z-index: 2;
     justify-content: left;
@@ -926,3 +922,91 @@
     cursor: pointer;
 }
 
+/*Inizio codice per media*/
+@media (max-width: 500px) {
+    .header_top{
+        justify-content: start;
+        height: 12%;
+    }
+    .hb_img1, .ht_img5{
+        height: 17px;
+    }
+    .ht_img3 , .ht_img7{
+        height: 20px; 
+    }
+    .ht_img6{
+        height: 4px;
+    }
+    .ht_box2_2, .ht_box4, .ht_box2_2 strong,  .ht_box5 strong, .ht_box5, .ht_box4 strong{
+        font-size: 5px;
+    }
+    .ht_box6 strong{
+        font-size: 6px;
+    }
+    .ht_box2{
+        width: 19%;
+        
+    }
+    .ht_box3{
+        width: 42%;
+        height: 16px;
+    }
+    .ht_box4{
+        width: 11%;
+    }
+    .ht_box5{
+        width: 6%;
+        border: 1px solid red;
+    }
+    .Search1{
+        width: 30.6%;
+        font-size: 5px;
+    }
+    .Search2{
+        width: 57.6%;
+        font-size: 6px;
+    }
+    .Search3{
+        width: 11.8%;
+    }
+    .hb_media_hide {
+        display: none;
+    }
+    .header_bottom{
+        font-size: 6px;
+        height: 15px;
+    }
+    #header_box_bottom{
+        justify-content: space-between;
+        height: 100%;
+    }
+    .hb_text{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .Sfondo1{
+        padding: 0 0;
+        width: 100%;
+        height: auto;
+        transform:scale(150%);
+        object-fit: cover;
+        top: 42px;
+    }
+    .freccie_Top{
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        left: 0;
+        top: 100px
+    }
+    .freccie_Top img{
+        height: 20px;
+    }
+    .flex_container1{
+        padding: 0 10px;
+        width: ;
+    }
+    
+    
+    
+}
